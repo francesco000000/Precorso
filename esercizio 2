@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrazione utente</title>
+    <link rel="icon" href="spoty.png">
+</head>
+<body >
+   <div style="text-align: center;">
+    <img src="spoty.png" alt="logo">
+    <h1>Registrati e ascolta la musica che vuoi</h1>
+   </div> 
+   <br>
+   <form style="text-align: center; ">
+    <input type="text" placeholder="il tuo nome" ><br>
+    <input type="text" placeholder="il tuo cognome"><br>
+    <input type="email" placeholder="la tua email"><br>
+    <input type="password" placeholder="inserisci password"><br>
+    <input type="number" placeholder="inserisci il tuo numero di cellulare"><br>
+    <label for="nascita">Data di nascita</label><br>
+    <input type="date" name="nascita"><br>
+    <h3>Musica preferita</h3>
+    <input type="checkbox" name="pop" id="pop" value="pop">
+    <label for="pop">pop</label><br>
+    <input type="checkbox" name="classica" id="classica" value="classica">
+    <label for="classica">classica</label><br>
+    <input type="checkbox" name="rock" id="rock" value="rock">
+    <label for="rock">rock</label><br>
+    <input type="checkbox" name="latino" id="latino" value="latino">
+    <label for="latino">latino</label><br>
+    <input type="checkbox" name="trap" id="trap" value="trap">
+    <label for="trap">trap</label><br>
+    <input type="radio" name="accettazione" value="accettazioni">accetta termini e condizioni<br>
+    <input type="reset" value="reset">
+    <button onclick="alert('Registrazione effettuata!')">invia registrazione</button>
+   </form>
+</body>
+</html>
