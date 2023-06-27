@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di presentazione</title>  
+</head>
+<body>
+    <div style="background-color: blue; text-align: center;">
+        <img src="foto.jpeg" alt="foto profilo" width="200" height="200">   
+     <h1 style="text-align: center;font-size: 50px;color: aliceblue;">Francesco Maisto</h1>
+    </div>
 
+    <h3>Interessi</h3>
+    <ul>
+        <li>viaggiare</li>
+        <li>cucinare</li>
+        <li>leggere</li>
+    </ul>
+    <table Border="1" style="width: 1000px ; height: 400px; " >
+        <caption>
+            <h2>Esperienze</h2>
+        </caption>
+        <tr style="width: 150px; height: 100px;">
+            <th>Anno</th>
+            <th>Posizione</th>
+            <th>Luogo</th>
+        </tr>
+        <tr>
+            <td>2020-2022</td>
+            <td>capo partita</td>
+            <td>Ristorante ,Monza</td>
+        </tr>
+        <tr>
+            <td>2015-2019</td>
+            <td>responsabile sala</td>
+            <td>catering , Milano</td>
+        </tr>
+        <tr>
+            <td>2010-2014</td>
+            <td>responsabile sla</td>
+            <td> Ristorante, Napoli</td>
+        </tr>
+        <tr>
+            <td>2004-2010</td>
+            <td>alunno</td>
+            <td>Istituto alberghiero,Napoli</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <div style="background-color: blue;">
+        <h3>Contatti</h3>
+        <ul>
+            <li>cell:3669926270</li>
+            <li>email:franco.maisto@outlook.com</li>
+            <li>indirizzo :via tagliamento,3</li>
+            
+        </ul>
+    </div>
+
+</body>
+</html>
