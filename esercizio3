@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>struttura con classica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-section"> 
+        <div class="image-container"></div>
+        <h1>Il Duomo di Firenze</h1>
+        <h3>Toscana</h3>
+        <p>Autore:<a href="https://www.bananapancake.com/" ><i>Justin Foulkes</i></a></p>
+        <h6>Luoghi correlati</h6>
+        <ul>
+            <li><a href="venezia.html">Basilica di San Marco</a> </li>
+            <li><a href="roma.html">Basilica di San Pietro</a> </li>
+            <li><a href="napoli.html">Duomo di Napoli</a> </li>
+            <li><a href="assisi.html">Basilica di San Francesco</a> </li>
+            <li><a href="milano.html">Duomo di Milano</a> </li>
+            
+        </ul>
+    </div>  
+    <footer>
+        <a class="home" href="home.html">Home</a>
+    </footer>
+</body>
+</html>
