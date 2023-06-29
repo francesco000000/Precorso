@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Prata&display=swap');
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.main-section{
+    padding: 20px;
+}
+.image-container{
+    height: 500px;
+background-image: url(https://www.storicang.it/medio/2020/12/02/la-facciata-della-cattedrale-fu-completamente-ricostruita-in-stile-neogotico-su-un-progetto-di-emilio-de-fabris-basato-sul-disegno-originale-di-giotto-nel-1887_de53ba51_800x533.jpg);
+background-repeat: no-repeat;
+background-size: 100% 500px;
+}
+h1{
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    margin-bottom: 0;
+}
+h3{
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+i{
+  font-weight: 600;
+}
+h6{
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: antiquewhite;
+    border-radius: 6px;
+   background: linear-gradient(92deg, #7d6985, #cf9dcb);
+    
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px;
+    border-color: #dfdfdf;
+}
+a{
+    text-decoration: none;
+    color: #7d6985;
+}
+footer{
+    background-color: black;
+    padding: 16px;
+}
+.home{
+    color: antiquewhite;
+    text-align: center;
+    display: block;
+    
+}
